@@ -14,11 +14,11 @@ Then to sync, use this command:
 After download RockOS source now you able to build rom by type 
 ``` . 
   build/envsetup.sh
-  lunch rock_CODENAME-userdebug 
+  lunch rockos_CODENAME-userdebug 
   ``` 
 Then to start build 
 ```
-  mka rock 
+  mka rockos
 ```
 
 ## Credits
