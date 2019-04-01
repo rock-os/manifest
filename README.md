@@ -3,7 +3,7 @@ RockOS
 ## Downloading Source
 To initialize your local repository, use this command:
 
-	repo init -u https://github.com/rock-os/manifest.git -b B-9
+	repo init -u https://github.com/rock-os/manifest.git -b 9.0
 
 Then to sync, use this command:
 
