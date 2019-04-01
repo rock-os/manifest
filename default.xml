@@ -6,6 +6,10 @@
            review="https://android-review.googlesource.com/"
            revision="refs/tags/android-9.0.0_r34" />
 
+  <remote  name="rock"
+           fetch="https://github.com/rock-os"
+           revision="B-9" />
+
   <!-- AOSP -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" remote="aosp" />
   <project path="build/kati" name="platform/build/kati" groups="pdk,tradefed" remote="aosp" />
@@ -593,8 +597,8 @@
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
-  <!-- GZOSP manifest -->
-  <include name="gzosp_default.xml" />
+  <!-- ROCKOS manifest -->
+  <include name="rosp_default.xml" />
 
   <!-- CAF manifest -->
   <include name="caf_default.xml" />
