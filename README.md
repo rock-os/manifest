@@ -2,11 +2,14 @@ RockOS
 ========
 ## Downloading Source
 To initialize your local repository, use this command:
-	repo init -u https://github.com/rock-os/manifest.git -b B-9 Then to sync, use this command:
+
+	repo init -u https://github.com/rock-os/manifest.git -b B-9
+
+Then to sync, use this command:
+
 	repo sync -c -j8 --force-sync --no-clone-bundle --no-tags
 	
-	
-	
+		
 ## Building RockOS
 After download RockOS source now you able to build rom by type 
 ``` . 
