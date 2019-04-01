@@ -9,10 +9,14 @@ To initialize your local repository, use this command:
 	
 ## Building RockOS
 After download RockOS source now you able to build rom by type 
-``` . build/envsetup.sh
-  lunch rock_CODENAME-userdebug ``` 
-Then to start build ```
-  mka rock ```
+``` . 
+  build/envsetup.sh
+  lunch rock_CODENAME-userdebug 
+  ``` 
+Then to start build 
+```
+  mka rock 
+```
 
 ## Credits
 - [GZOSP](http://GitHub.com/gzosp) 
